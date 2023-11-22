@@ -53,7 +53,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'lairdptestflaskcloudrun.default'
+    environment: 'lab5-cicd.default'
     strategy:
       runOnce:
         deploy:
