@@ -11,7 +11,7 @@ resources:
 variables:
 
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'lab5-sconn'
+  dockerRegistryServiceConnection: 'lab5-dockersc'
   imageRepository: 'lairdptestflaskcloudrun'
   containerRegistry: 'labo5test.azurecr.io'
   dockerfilePath: '**/Dockerfile'
