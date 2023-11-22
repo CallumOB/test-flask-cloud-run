@@ -11,7 +11,7 @@ resources:
 variables:
 
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '22da397b-4134-4f02-987e-4cf18504510d'
+  dockerRegistryServiceConnection: 'lab5-sconn'
   imageRepository: 'lairdptestflaskcloudrun'
   containerRegistry: 'labo5test.azurecr.io'
   dockerfilePath: '**/Dockerfile'
@@ -19,7 +19,7 @@ variables:
   imagePullSecret: 'labo5test5269-auth'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'cc-ubuntu'
 
 
 stages:
