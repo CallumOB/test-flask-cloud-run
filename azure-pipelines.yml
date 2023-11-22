@@ -19,7 +19,7 @@ variables:
   imagePullSecret: 'labo5test5269-auth'
 
   # Agent VM image name
-  vmImageName: 'cc-ubuntu'
+  vmImageName: 'ubuntu-latest'
 
 
 stages:
