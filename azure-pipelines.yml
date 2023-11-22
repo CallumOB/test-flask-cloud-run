@@ -53,7 +53,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'lab5-cicd.default'
+    environment: 'lab5-cicd'
     strategy:
       runOnce:
         deploy:
