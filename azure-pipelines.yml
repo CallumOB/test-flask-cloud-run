@@ -13,7 +13,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'lab5-dockersc'
   imageRepository: 'lairdptestflaskcloudrun'
-  containerRegistry: 'labo5test.azurecr.io'
+  containerRegistry: 'lab5cicd.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'labo5test5269-auth'
